@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Devoir: base de php</title>
 </head>
 <body>
     <?php
 //==================variable================
 
 $nom='Arakaza';
-$prenom="Arkade";
+$prenom="ArCade";
 
 echo 'Mon nom est '.$nom. ' mon prenom est ' .$prenom.'</br>';
 
