@@ -10,7 +10,7 @@
 //==================variable================
 
 $nom='Arakaza';
-$prenom="ArCade";
+$prenom="Arcade";
 
 echo 'Mon nom est '.$nom. ' mon prenom est ' .$prenom.'</br>';
 
