@@ -68,8 +68,11 @@ switch($ville){
 }
              function somme($a,$b)
                 {
+
+                    
                     $c=$a+$b;
-                    return$c;
+                    echo 'la somme de a et b edal à ' .$c;
+                    
                 }
                 somme(2,4);
      
