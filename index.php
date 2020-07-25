@@ -52,6 +52,27 @@ if($matin == 'bonjour'){
         echo 'Bonsoir tous le monde </br> ';
 }
 //******switch case */
+$ville="buja";
+switch($ville){
+
+        case "buja":
+            echo "le capitale du burundi </br>";
+        break;
+        case "gitega":
+            echo "capitale politique du burundi</br>";
+        break;
+        default:
+            echo "pas d\'autre capitale </br>";
+        break;
+
+}
+             function somme($a,$b)
+                {
+                    $c=$a+$b;
+                    return$c;
+                }
+                somme(2,4);
+     
 
 
     ?>
