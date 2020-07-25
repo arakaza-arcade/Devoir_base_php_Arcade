@@ -37,7 +37,20 @@ $enfant=[ 'nom' => 'Ajeneza',
  
 ];
 echo 'son nom est ' .$enfant['nom'] . ' et son prenom '. $enfant['prrenom'];
-//=========================
+//============================Structure conditionnelle========================
+
+//================condition if=============
+$matin='bonjour';
+$soir='bonsoir';
+
+if($matin == 'bonjour'){
+
+    echo 'Bonjour le monde </br>';
+}
+    if( $soir='bonsoir'){
+
+        echo 'Bonsoir tous le monde </br> ';
+}
 
     ?>
 </body>
