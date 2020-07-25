@@ -70,7 +70,7 @@ switch($ville){
 //=================for==========
 for($i=0;$i<5;$i++)
 {
-    echo 'Hello'; 
+    echo '<p> Hello </p>'; 
     
 }
 //=========================while==============
@@ -98,7 +98,8 @@ do{
 
                     
                     $c=$a+$b;
-                    echo 'la somme de a et b edal à ' .$c;
+                    echo 'la somme de a et b eg
+                    al à ' .$c;
                     
                 }
                 somme(2,4);
