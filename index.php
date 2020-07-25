@@ -12,7 +12,7 @@
 $nom='Arakaza';
 $prenom="Arkade";
 
-echo 'Mon nom est '.$nom. ' mon prenom est ' .$prenom;
+echo 'Mon nom est '.$nom. ' mon prenom est ' .$prenom.'</br>';
 
 //==================booleen========
 
@@ -21,11 +21,11 @@ $age=15;
 if($age <= 15 )
 {
  $enfant=true;
- echo 'tu es un enfant';
+ echo 'tu es un enfant </br>';
 
 }else{
 $enfant=false;
-echo 'tu es adulte';
+echo 'tu es adulte </br>';
 
 }
 //======================tables==============
@@ -33,10 +33,10 @@ echo 'tu es adulte';
 
 
 $enfant=[ 'nom' => 'Ajeneza',
-              'prenom' =>'Audy',
+              'prenom' =>'Audy' 
  
 ];
-echo 'son nom est ' .$enfant['nom'] . ' et son prenom '. $enfant['prrenom'];
+      echo 'son nom est ' .$enfant['nom'] . ' et son prenom '. $enfant['prenom']. '<br>';
 //============================Structure conditionnelle========================
 
 //================condition if=============
@@ -47,10 +47,12 @@ if($matin == 'bonjour'){
 
     echo 'Bonjour le monde </br>';
 }
-    if( $soir='bonsoir'){
+    if( $soir =='bonsoir'){
 
         echo 'Bonsoir tous le monde </br> ';
 }
+//******switch case */
+
 
     ?>
 </body>
