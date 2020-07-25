@@ -66,6 +66,33 @@ switch($ville){
         break;
 
 }
+//=======================boucle==================
+//=================for==========
+for($i=0;$i<5;$i++)
+{
+    echo 'Hello'; 
+    
+}
+//=========================while==============
+$number=0;
+while($number < 2){
+
+        echo '<p>'.$number.'</p>'; // afficher tous les nombres inferieur a 10
+
+        $number++; //parcourir toutes les valeurs inferieur de 10
+}
+
+//====boucle do while=====
+
+do{
+
+    echo'<p>' .$number.'</p>';
+    $number++;
+
+}while($number < 3); 
+
+
+//=======================finction=======================
              function somme($a,$b)
                 {
 
